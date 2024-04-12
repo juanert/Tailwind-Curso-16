@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lexpin</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        font-family: "Montserrat", sans-serif;
+      }
+    </style>
+  </head>
+  <body>
+    <nav
+      class="bg-blue-600 items-center flex justify-between px-8 py-4 text-gray-100 font-light"
+    >
+      <div>
+        <img class="w-36" src="./Lexpin_Logo blanco.png" alt="logo">
+      </div>
+      <div class="hidden lg:flex items-center gap-4">
+        <p class="cursor-pointer hover:font-bold transition-all duration-500">
+          Inicio
+        </p>
+        <p class="cursor-pointer hover:font-bold transition-all duration-500">
+          Nosotros
+        </p>
+        <p class="cursor-pointer hover:font-bold transition-all duration-500">
+          Acceder
+        </p>
+        <button
+          class="bg-gray-100 text-blue-600 px-4 py-2 rounded-full font-bold hover:outline-2 hover:outline hover:outline-white hover:bg-blue-600 hover:text-white transition-all duration-500"
+        >
+          Registro
+        </button>
+      </div>
+      <div class="flex lg:hidden">
+        <button>X</button>
+      </div>
+    </nav>
+    <header class="p-8 ">
+      <div
+        class="grid grid-cols-12 rounded-2xl bg-gradient-to-br from-blue-400
+        via-blue-600 to-blue-400 backdrop-blur-2xl p-8 shadow-xl text-center lg:text-left"
+      >
+        <div class="flex flex-col col-span-12 lg:col-span-8 items-center lg:items-start gap-6 text-xl font-light
+        justify-center text-white">
+          <h1 class="text-3xl font-bold ">Educate en una nueva carrera online</h1>
+          <div class="flex-col gap-6 lg:hidden flex">
+            <img src="./online.png" alt="Imagen de portada" />
+          </div>
+          <p>
+            Vive una experiencia educacional con lexpin formandote en
+            programación web
+          </p>
+          <button class="bg-gray-100 text-blue-600 px-4 py-2 rounded-full
+          font-bold hover:outline-2 hover:outline hover:outline-white
+          hover:bg-blue-600 hover:text-white transition-all duration-500">
+            Registrate
+          </button>
+        </div>
+        <div class="flex-col col-span-4 gap-6 hidden lg:flex">
+          <img src="./online.png" alt="Imagen de portada"  width="100%"/>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>
